@@ -166,9 +166,7 @@ export class LeftPaneFindByUsernameHelper extends LeftPaneHelper<LeftPaneFindByU
     return undefined;
   }
 
-  shouldRecomputeRowHeights(_old: unknown): boolean {
-    return false;
-  }
+  shouldRecomputeRowHeights(_old: unknown): boolean { return false; }
 
   private async doLookup({
     lookupConversationWithoutServiceId,
